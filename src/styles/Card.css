@@ -1,0 +1,49 @@
+.card_body{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.card_content{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 3rem;
+}
+
+.card_content:hover{
+  border: 1px solid #c5d86d;
+}
+
+.describe_div{
+  margin: 1rem 0;
+}
+
+.text_bold{
+  font-weight: 600;
+}
+
+.text_describe{
+  font-weight: 500;
+}
+
+p{
+  font-size: 1rem;
+}
+
+.instruct_div{
+  
+}
+
+@media (max-width:670px){
+  .card_content{
+    padding: 2rem 1rem;
+    margin: 2rem 1.5rem;
+  }
+}
+
+@media (max-width:400px){
+  .card_content{
+    padding: 2rem 1rem;
+    margin: 2rem 1rem;
+  }
+}

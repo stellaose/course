@@ -1,0 +1,41 @@
+.home_body{
+  margin: auto;
+  max-width: 1440px;
+  padding: 2rem 0;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.home_div{
+  display: grid;
+  grid-template-columns: 43% 43%;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width:960px){
+  .home_div{
+    grid-template-columns: 47% 47%;
+  }
+}
+
+@media (max-width:670px){
+  .home_div{
+    grid-template-columns: 75%;
+  }
+}
+
+@media (max-width:400px){
+  .home_div{
+    grid-template-columns: 90%;
+  }
+}
+
+@media (max-width:300px){
+  .home_div{
+    grid-template-columns: 95%;
+  }
+}
